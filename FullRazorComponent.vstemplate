@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>Component.razor</DefaultName>
+    <Name>FullRazorComponent</Name>
+    <Description>Full Razor Component with CS and CSS files</Description>
+    <ProjectType>CSharp</ProjectType>
+    <Icon>FullRazorComponent.ico</Icon>
+    <TemplateGroupID>AspNetCore</TemplateGroupID>
+    <TemplateID>MisterMagoo.FullRazorComponent</TemplateID>
+    <AppliesTo>DotNetCoreRazor</AppliesTo>
+    <NumberOfParentCategoriesToRollUp>3</NumberOfParentCategoriesToRollUp>
+    <SortOrder>55</SortOrder>
+    <ShowByDefault>true</ShowByDefault>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.razor" ReplaceParameters="true">Component.razor</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.razor.cs" ReplaceParameters="true">Component.razor.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.razor.css" ReplaceParameters="true">Component.razor.css</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
